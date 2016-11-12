@@ -1,0 +1,79 @@
+<resources>
+    <string name="app_name">Urinalysis</string>
+
+    <!-- login layout -->
+    <string name="str_username">Username</string>
+    <string name="str_password">Password</string>
+    <string name="str_but_login">Login</string>
+    <string name="str_but_register">Register</string>
+    <string name="str_forgot_password">Forgot your Password?</string>
+
+    <!-- home layout -->
+    <string name="str_but_test">Urinalysis Test</string>
+    <string name="str_but_history">History Check</string>
+    <string name="str_but_help">Help</string>
+    <string name="str_but_profile">My Profile</string>
+    <string name="str_but_logout">Logout</string>
+    <string name="str_but_find_doctor">Find Doctor</string>
+
+    <!-- select dipstick layout -->
+    <string name="str_select_dipstick">Choose Dipstick Strip Brand:</string>
+    <string name="str_but_choose">Choose</string>
+    <string name="prompt">Choose Dipstick Brand</string>
+    <string-array name="dipstick_list">
+        <item>Urit</item>
+        <item>Mindray</item>
+        <item>Verify</item>
+    </string-array>
+
+    <string name="Go">Go</string>
+
+    <string-array name="ReagentArray">
+        <item>Leukocytes</item>
+        <item>Nitrite</item>
+        <item>Glucose</item>
+        <item>Ketone</item>
+        <item>Protein</item>
+        <item>Haemoglobin</item>
+        <item>Bilirubin</item>
+        <item>Urobilinogen</item>
+    </string-array>
+
+    <string name="Register">Register</string>
+    <color name="red">#A86831</color>
+    <string name="Profile">Profile</string>
+    <string name="Name">Name</string>
+    <string name="Gender">Gender</string>
+    <string name="Bio">Bio</string>
+    <string name="Website">Website</string>
+    <string name="ProfilePicture">Profile Picture</string>
+    <string name="Phone">Phone</string>
+    <string name="Address">Address</string>
+    <string name="Male">Male</string>
+    <string name="Female">Female</string>
+    <string name="Submit">Submit</string>
+    <string name="colon">: </string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_home">Home</string>
+    <string name="title_activity_select_dipstick">Select Dipstick Brand</string>
+    <string name="title_activity_take_image">Take Image</string>
+    <string name="title_activity_select_reagen">Select Reagen</string>
+    <string name="title_activity_register">Register</string>
+    <string name="title_activity_profile">My Profile</string>
+    <string name="title_activity_input_laboratory">Input Laboratory</string>
+    <string name="title_activity_laboratory">Laboratory</string>
+    <string name="title_activity_select_photo_or_crop">Select Photo Or Crop</string>
+    <string name="title_activity_history_urian_lab">History</string>
+    <string name="title_activity_input_chart">Input Chart</string>
+    <string name="title_activity_help_home">Help</string>
+    <string name="title_activity_help_test">Help</string>
+    <string name="title_activity_help_login">Help</string>
+    <string name="title_activity_help_register">Help</string>
+    <string name="title_activity_select_reagent_chart">SelectReagentChart</string>
+    <string name="title_activity_map">MapActivity</string>
+    <string name="title_activity_register_doctor">RegisterDoctor</string>
+    <string name="title_activity_edit_profile">EditProfileActivity</string>
+</resources>

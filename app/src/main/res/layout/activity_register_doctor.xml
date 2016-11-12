@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/MyMainLayout">
+
+
+    <ScrollView
+        style="@style/MyScrollView">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp" >
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="@dimen/register_field_height"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Register Doctor"
+                    android:id="@+id/titleRegisterDoctor"
+                    android:textSize="@dimen/font_size_medium"
+                    android:gravity="center" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+
+                <TextView
+                    android:layout_width="@dimen/register_field_width"
+                    android:layout_height="@dimen/register_field_height"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Username"
+                    android:id="@+id/username"
+                    android:textSize="@dimen/font_size_medium" />
+
+                <EditText
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/tbDUsername"/>
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="@dimen/field_margin">
+
+                <TextView
+                    android:layout_width="@dimen/register_field_width"
+                    android:layout_height="@dimen/register_field_height"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Password"
+                    android:id="@+id/password"
+                    android:textSize="@dimen/font_size_medium" />
+
+                <EditText
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/tbDPassword"/>
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="@dimen/field_margin">
+
+                <TextView
+                    android:layout_width="@dimen/register_field_width"
+                    android:layout_height="@dimen/register_field_height"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="@string/Name"
+                    android:id="@+id/name"
+                    android:textSize="@dimen/font_size_medium" />
+
+                <EditText
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:id="@+id/tbDname"
+                    android:layout_marginTop="5dp"
+                    android:inputType="textPersonName"/>
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/field_margin">
+
+                <TextView
+                    android:layout_width="@dimen/register_field_width"
+                    android:layout_height="@dimen/register_field_height"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="@string/Gender"
+                    android:id="@+id/gender"
+                    android:textSize="@dimen/font_size_medium" />
+
+                <Spinner
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/spDgender"
+                    android:layout_marginTop="5dp"
+                    android:spinnerMode="dropdown" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="@dimen/field_margin">
+
+                <TextView
+                    android:layout_width="@dimen/register_field_width"
+                    android:layout_height="@dimen/register_field_height"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Birthday"
+                    android:id="@+id/Birthday"
+                    android:textSize="@dimen/font_size_medium" />
+
+                <EditText
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/tbDBirthday" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="@dimen/field_margin">
+
+                <TextView
+                    android:layout_width="@dimen/register_field_width"
+                    android:layout_height="@dimen/register_field_height"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Email"
+                    android:id="@+id/Email"
+                    android:textSize="@dimen/font_size_medium" />
+
+                <EditText
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/tbDEmail" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="@dimen/field_margin">
+
+                <TextView
+                    android:layout_width="@dimen/register_field_width"
+                    android:layout_height="@dimen/register_field_height"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="@string/Bio"
+                    android:id="@+id/Bio"
+                    android:textSize="@dimen/font_size_medium" />
+
+                <EditText
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/tbDBio" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="@dimen/field_margin">
+
+                <TextView
+                    android:layout_width="@dimen/register_field_width"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="@string/Website"
+                    android:id="@+id/web"
+                    android:textSize="@dimen/font_size_medium" />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/register_field_height"
+                    android:id="@+id/tbDWeb"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight="1" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="@dimen/field_margin">
+
+                <TextView
+                    android:layout_width="@dimen/register_field_width"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="@string/Address"
+                    android:id="@+id/Address"
+                    android:textSize="@dimen/font_size_medium" />
+
+                <EditText
+                    android:layout_width="fill_parent"
+                    android:layout_height="@dimen/register_field_height"
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/tbDAddress" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="@dimen/field_margin">
+
+                <TextView
+                    android:layout_width="@dimen/register_field_width"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Phone"
+                    android:id="@+id/Phone"
+                    android:textSize="@dimen/font_size_medium" />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/register_field_height"
+                    android:id="@+id/tbDPhone"
+                    android:layout_weight="1"
+                    android:inputType="textPhonetic"
+                    android:layout_marginTop="5dp"
+                    android:textSize="@dimen/font_size_medium" />
+            </LinearLayout>
+
+            <Button
+                android:text="@string/Submit"
+                android:id="@+id/button"
+                android:layout_gravity="center_horizontal"
+                style="@style/MyMenuRectangleButton" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/MyMainLayout">
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        >
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:stretchColumns="1"
+        >
+    <TextView
+
+        android:id="@+id/txtWelcome"
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+
+        android:textSize="10pt"
+
+        android:text="Please input Reagent image" />
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+
+        android:gravity="center"
+
+        android:padding="5dp" >
+
+        <ImageView
+
+            android:id="@+id/ivImage"
+
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+
+            />
+
+        <CheckBox
+
+            android:id="@+id/checkBox"
+
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+
+            android:clickable="false"
+
+            android:layout_toRightOf="@+id/ivImage"/>
+
+        <Button
+
+            android:id="@+id/btnSelectPhoto"
+
+            android:text="Select Photo"
+
+            android:textColor="#0F0F0F"
+
+            android:layout_width="150dp"
+
+            android:layout_height="40dp"
+
+            android:background="@drawable/buttonshape"
+
+            android:shadowColor="#A8A8A8"
+
+            android:shadowDx="0"
+
+            android:shadowDy="0"
+
+            android:shadowRadius="5"
+
+            android:layout_alignParentRight="true"
+
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+
+        android:gravity="center"
+
+        android:padding="5dp" >
+
+        <ImageView
+
+            android:id="@+id/ivImage1"
+
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+
+            />
+
+        <CheckBox
+
+            android:id="@+id/checkBox1"
+
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+
+            android:clickable="false"
+
+            android:layout_toRightOf="@+id/ivImage1"/>
+
+        <Button
+
+            android:id="@+id/btnSelectPhoto1"
+
+            android:text="Select Photo"
+
+            android:textColor="#0F0F0F"
+
+            android:layout_width="150dp"
+
+            android:layout_height="40dp"
+
+            android:background="@drawable/buttonshape"
+
+            android:shadowColor="#A8A8A8"
+
+            android:shadowDx="0"
+
+            android:shadowDy="0"
+
+            android:shadowRadius="5"
+
+            android:layout_alignParentRight="true"
+
+            android:enabled="false"
+
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+
+        android:gravity="center"
+
+        android:padding="5dp" >
+
+        <ImageView
+
+            android:id="@+id/ivImage2"
+
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+
+            />
+
+        <CheckBox
+
+            android:id="@+id/checkBox2"
+
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+
+            android:clickable="false"
+
+            android:layout_toRightOf="@+id/ivImage2"/>
+
+        <Button
+
+            android:id="@+id/btnSelectPhoto2"
+
+            android:text="Select Photo"
+
+            android:textColor="#0F0F0F"
+
+            android:layout_width="150dp"
+
+            android:layout_height="40dp"
+
+            android:background="@drawable/buttonshape"
+
+            android:shadowColor="#A8A8A8"
+
+            android:shadowDx="0"
+
+            android:shadowDy="0"
+
+            android:shadowRadius="5"
+
+            android:layout_alignParentRight="true"
+
+            android:enabled="false"
+
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+
+        android:gravity="center"
+
+        android:padding="5dp" >
+
+        <ImageView
+
+            android:id="@+id/ivImage3"
+
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+
+            />
+
+        <CheckBox
+
+            android:id="@+id/checkBox3"
+
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+
+            android:clickable="false"
+
+            android:layout_toRightOf="@+id/ivImage3"/>
+
+        <Button
+
+            android:id="@+id/btnSelectPhoto3"
+
+            android:text="Select Photo"
+
+            android:textColor="#0F0F0F"
+
+            android:layout_width="150dp"
+
+            android:layout_height="40dp"
+
+            android:background="@drawable/buttonshape"
+
+            android:shadowColor="#A8A8A8"
+
+            android:shadowDx="0"
+
+            android:shadowDy="0"
+
+            android:shadowRadius="5"
+
+            android:layout_alignParentRight="true"
+
+            android:enabled="false"
+
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="5dp" >
+        <ImageView
+            android:id="@+id/ivImage4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+        <CheckBox
+            android:id="@+id/checkBox4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="false"
+            android:layout_toRightOf="@+id/ivImage4"/>
+        <Button
+            android:id="@+id/btnSelectPhoto4"
+            android:text="Select Photo"
+            android:textColor="#0F0F0F"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:background="@drawable/buttonshape"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:layout_alignParentRight="true"
+            android:enabled="false"
+            />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="5dp" >
+        <ImageView
+            android:id="@+id/ivImage5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+        <CheckBox
+            android:id="@+id/checkBox5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="false"
+            android:layout_toRightOf="@+id/ivImage5"/>
+        <Button
+            android:id="@+id/btnSelectPhoto5"
+            android:text="Select Photo"
+            android:textColor="#0F0F0F"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:background="@drawable/buttonshape"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:layout_alignParentRight="true"
+            android:enabled="false"
+            />
+    </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="5dp" >
+            <ImageView
+                android:id="@+id/ivImage6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+            <CheckBox
+                android:id="@+id/checkBox6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="false"
+                android:layout_toRightOf="@+id/ivImage6"/>
+            <Button
+                android:id="@+id/btnSelectPhoto6"
+                android:text="Select Photo"
+                android:textColor="#0F0F0F"
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:background="@drawable/buttonshape"
+                android:shadowColor="#A8A8A8"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="5"
+                android:layout_alignParentRight="true"
+                android:enabled="false"
+                />
+        </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtDist1"
+            android:visibility="invisible"
+            android:textSize="25sp"
+            android:layout_centerHorizontal="true"
+            /></RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtStatus"
+            android:padding="8dp"
+            android:textSize="32sp"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+        <Button
+            android:id="@+id/btnSaveResult"
+            android:layout_width="300px"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"
+            android:text="Save Result"
+            style="@style/MyMenuRectangleButton"
+            android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    </TableLayout>
+    </ScrollView>
+</LinearLayout>

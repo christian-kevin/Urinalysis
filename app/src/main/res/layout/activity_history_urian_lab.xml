@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/MyMainLayout">
+
+    <ScrollView
+        style="@style/MyScrollView">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:text="Urinalysis Result"
+                android:id="@+id/buttonCheckUrian"
+                android:onClick="buttonCheckUrian"
+                android:layout_marginTop="@dimen/register_field_width"
+                android:textSize="@dimen/font_size_medium"
+                style="@style/MyMenuRectangleButton" />
+
+            <Button
+                android:text="Laboratory Result"
+                android:id="@+id/buttonCheckLaboratory"
+                android:onClick="buttonCheckLaboratory"
+                android:textSize="@dimen/font_size_medium"
+                style="@style/MyMenuRectangleButton" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

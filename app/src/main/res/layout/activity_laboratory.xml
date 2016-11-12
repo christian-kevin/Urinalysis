@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/MyMainLayout">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <LinearLayout android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <Button
+                    android:text="Add Data"
+                    android:id="@+id/buttonAddLab"
+                    android:onClick="buttonAddLab"
+                    style="@style/MyMenuRectangleButton" />
+
+                <Button
+                    android:text="View Chart"
+                    android:id="@+id/buttonViewChart"
+                    android:onClick="buttonViewChart"
+                    style="@style/MyMenuRectangleButton" />
+            </LinearLayout>
+            <LinearLayout android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <ListView
+                    android:id="@android:id/list"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/field_margin"/>
+            </LinearLayout>
+        </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/MyMainLayout">
+
+    <ScrollView
+        style="@style/MyScrollView">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp" >
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="@dimen/register_field_height"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Edit Profile"
+                    android:id="@+id/titleEditProfile"
+                    android:textSize="@dimen/font_size_medium"
+                    android:gravity="center" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="@dimen/field_margin">
+
+                <TextView
+                    android:layout_width="@dimen/register_field_width"
+                    android:layout_height="@dimen/register_field_height"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="@string/Name"
+                    android:id="@+id/editName"
+                    android:textSize="@dimen/font_size_medium" />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:id="@+id/tbEditName"
+                    android:layout_weight="0.33"
+                    android:inputType="textPersonName"
+                    android:textSize="@dimen/font_size_medium" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="@dimen/field_margin">
+
+                <TextView
+                    android:layout_width="@dimen/register_field_width"
+                    android:layout_height="@dimen/register_field_height"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="@string/Gender"
+                    android:id="@+id/editGender"
+                    android:textSize="@dimen/font_size_medium" />
+
+                <Spinner
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editSpgender"
+                    android:spinnerMode="dropdown" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="@dimen/field_margin">
+
+                <TextView
+                    android:layout_width="@dimen/register_field_width"
+                    android:layout_height="@dimen/register_field_height"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="@string/Bio"
+                    android:id="@+id/EditBio"
+                    android:textSize="@dimen/font_size_medium" />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tbEditBio"
+                    android:layout_weight="0.48"
+                    android:textSize="@dimen/font_size_medium" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="@dimen/field_margin">
+
+                <TextView
+                    android:layout_width="@dimen/register_field_width"
+                    android:layout_height="@dimen/register_field_height"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="@string/Website"
+                    android:id="@+id/editWeb"
+                    android:textSize="@dimen/font_size_medium" />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tbEditWeb"
+                    android:layout_weight="1"
+                    android:inputType="textWebEmailAddress"
+                    android:textSize="@dimen/font_size_medium" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="@dimen/field_margin">
+
+                <TextView
+                    android:layout_width="@dimen/register_field_width"
+                    android:layout_height="@dimen/register_field_height"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="@string/Address"
+                    android:id="@+id/editAddress"
+                    android:textSize="@dimen/font_size_medium" />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tbEditAddress"
+                    android:layout_weight="1"
+                    android:textSize="@dimen/font_size_medium" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="@dimen/field_margin">
+
+                <TextView
+                    android:layout_width="@dimen/register_field_width"
+                    android:layout_height="@dimen/register_field_height"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="@string/Phone"
+                    android:id="@+id/editPhone"
+                    android:textSize="@dimen/font_size_medium" />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tbEditPhone"
+                    android:layout_weight="1"
+                    android:inputType="textPhonetic"
+                    android:textSize="@dimen/font_size_medium" />
+            </LinearLayout>
+
+            <Button
+                android:text="Save Change"
+                android:id="@+id/buttonSaveProfile"
+                android:layout_gravity="center_horizontal"
+                android:onClick="buttonSaveProfile"
+                style="@style/MyMenuRectangleButton" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

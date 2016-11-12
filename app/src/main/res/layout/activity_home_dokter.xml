@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/MyMainLayout">
+
+    <ScrollView
+        style="@style/MyScrollView">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="@dimen/layout_button_menu_size"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center">
+                <Button
+                    android:layout_width="@dimen/button_menu_size"
+                    android:layout_height="@dimen/button_menu_size"
+                    android:text=" "
+                    android:id="@+id/buttonHistory"
+                    android:onClick="buttonHistoryOnClick"
+                    android:background="@drawable/but_history"
+                     />
+                <Button
+                    android:layout_width="@dimen/button_menu_size"
+                    android:layout_height="@dimen/button_menu_size"
+                    android:text=" "
+                    android:id="@+id/buttonProfile"
+                    android:onClick="buttonProfileOnClick"
+                    android:background="@drawable/but_profile"
+                    android:layout_marginLeft="@dimen/field_margin"/>
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="@dimen/layout_button_menu_size"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/field_margin"
+                android:layout_gravity="center">
+                <Button
+                    android:layout_width="@dimen/button_menu_size"
+                    android:layout_height="@dimen/button_menu_size"
+                    android:text=" "
+                    android:id="@+id/buttonAddPatient"
+                    android:onClick="buttonAddPatientOnClick"
+                    android:background="@drawable/but_help" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="@dimen/layout_button_menu_size"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/field_margin"
+                android:layout_gravity="center">
+                <Button
+                    android:layout_width="@dimen/button_menu_size"
+                    android:layout_height="@dimen/button_menu_size"
+                    android:text=" "
+                    android:id="@+id/buttonHelp"
+                    android:onClick="buttonHelpOnClick"
+                    android:background="@drawable/but_help" />
+
+                <Button
+                    android:layout_width="@dimen/button_menu_size"
+                    android:layout_height="@dimen/button_menu_size"
+                    android:text=" "
+                    android:id="@+id/buttonLogout"
+                    android:onClick="buttonLogoutOnClick"
+                    android:background="@drawable/but_logout"
+                    android:layout_marginLeft="@dimen/field_margin" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

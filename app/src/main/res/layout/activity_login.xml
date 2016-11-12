@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/MyMainLayout">
+
+    <ScrollView
+        style="@style/MyScrollView">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Email"
+                android:id="@+id/textUsername" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:id="@+id/username" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/str_password"
+                android:id="@+id/textPassword"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:ems="10"
+                android:id="@+id/password"
+                android:layout_gravity="center_horizontal"/>
+
+            <Button
+                android:id="@+id/buttonLogin"
+                android:onClick="buttonLoginOnClick"
+                android:text="Login"
+                style="@style/MyMenuRectangleButton" />
+            <Button
+                android:id="@+id/buttonRegisterPatient"
+                android:onClick="buttonRegisterPatientOnClick"
+                android:text="Register Patient"
+                style="@style/MyMenuRectangleButton" />
+            <Button
+                android:id="@+id/buttonRegisterDoctor"
+                android:onClick="buttonRegisterDoctorOnClick"
+                android:text="Register Doctor"
+                style="@style/MyMenuRectangleButton" />
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/MyMainLayout">
+
+    <ScrollView
+        style="@style/MyScrollView">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Select Parameter for Chart"
+                android:id="@+id/textView"
+                android:layout_gravity="center_horizontal" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="30dp"
+                android:visibility="invisible">
+            </View>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal">
+
+                <TextView
+                    android:layout_width="@dimen/register_field_width"
+                    android:layout_height="@dimen/register_field_height"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Reagent"
+                    android:id="@+id/reagent" />
+
+                <Spinner
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/spReagentChart"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:layout_weight="1"
+                    android:spinnerMode="dropdown" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal">
+
+                <TextView
+                    android:layout_width="@dimen/register_field_width"
+                    android:layout_height="@dimen/register_field_height"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Month"
+                    android:id="@+id/password" />
+
+                <Spinner
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/spMonthChart"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:layout_weight="1"
+                    android:spinnerMode="dropdown" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_gravity="center_horizontal">
+
+                <TextView
+                    android:layout_width="@dimen/register_field_width"
+                    android:layout_height="@dimen/register_field_height"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Year"
+                    android:id="@+id/name" />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/register_field_height"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:inputType="numberDecimal"
+                    android:id="@+id/txtYear" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:visibility="invisible">
+            </View>
+
+            <Button
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:text="@string/Submit"
+                android:id="@+id/btnSubmitSelectParamReagent"
+                android:onClick="btnSubmitSelectParamReagentOnClick"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/but_bg"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="#ffffff00" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

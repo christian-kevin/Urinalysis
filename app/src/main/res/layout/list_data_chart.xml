@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <!-- Product id (pid) - will be HIDDEN - used to pass to other activity -->
+
+    <!-- Name Label -->
+    <TextView android:id="@+id/valuenameChart"
+        android:textSize="@dimen/font_size_medium"
+        android:textStyle="bold"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView android:id="@+id/valuevalueChart"
+        android:textSize="@dimen/font_size_medium"
+        android:textStyle="italic"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView android:id="@+id/valuedateChart"
+        android:textSize="@dimen/font_size_medium"
+        android:textStyle="italic"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView android:id="@+id/valuestatusChart"
+        android:textSize="@dimen/font_size_medium"
+        android:textStyle="italic"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

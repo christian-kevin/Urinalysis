@@ -1,0 +1,2 @@
+include ':app'
+include ':libraries:simple-crop-image-lib'

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/MyMainLayout">
+
+    <ScrollView
+        style="@style/MyScrollView">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="@dimen/register_field_width"
+                    android:layout_height="@dimen/register_field_height"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="@dimen/font_size_medium"
+                    android:text="Date"/>
+
+                <EditText android:id="@+id/date_field"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/register_field_height"
+                    android:ems="10"
+                    android:layout_weight="0.33"
+                    android:textSize="@dimen/font_size_medium"
+                    android:inputType="date" />
+
+            </LinearLayout>
+
+            <LinearLayout android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView android:layout_width="@dimen/register_field_width"
+                    android:layout_height="@dimen/register_field_height"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="@dimen/font_size_medium"
+                    android:text="Parameter"/>
+
+                <Spinner android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.33"
+                    android:id="@+id/param_field"/>
+
+            </LinearLayout>
+
+            <LinearLayout android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView android:layout_width="@dimen/register_field_width"
+                    android:layout_height="@dimen/register_field_height"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="@dimen/font_size_medium"
+                    android:text="Laboratory"/>
+
+                <Spinner android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.33"
+                    android:id="@+id/laboratorium_field" />
+
+            </LinearLayout>
+
+            <LinearLayout android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView android:layout_width="@dimen/register_field_width"
+                    android:layout_height="@dimen/register_field_height"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="@dimen/font_size_medium"
+                    android:text="Value"/>
+
+                <EditText android:layout_width="wrap_content"
+                    android:layout_height="@dimen/register_field_height"
+                    android:ems="10"
+                    android:layout_weight="0.33"
+                    android:textSize="@dimen/font_size_medium"
+                    android:inputType="numberDecimal"
+                    android:id="@+id/value_field"
+                    android:digits="1234567890"/>
+
+            </LinearLayout>
+
+            <LinearLayout android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView android:layout_width="@dimen/register_field_width"
+                    android:layout_height="@dimen/register_field_height"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="@dimen/font_size_medium"
+                    android:text="Status"/>
+
+                <EditText android:layout_width="wrap_content"
+                    android:layout_height="@dimen/register_field_height"
+                    android:ems="10"
+                    android:layout_weight="0.33"
+                    android:textSize="@dimen/font_size_medium"
+                    android:id="@+id/status_field" />
+
+            </LinearLayout>
+
+            <Button
+                android:text="Submit"
+                android:id="@+id/buttonSubmitLaboratory"
+                style="@style/MyMenuRectangleButton" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,17 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="button_large_height">65dp</dimen>
+    <dimen name="button_size">50dp</dimen>
+    <dimen name="button_menu_size">100dp</dimen>
+    <dimen name="layout_button_menu_size">235dp</dimen>
+    <dimen name="font_size_large">25dp</dimen>
+    <dimen name="font_size_medium">22dp</dimen>
+    <dimen name="font_size_small">15dp</dimen>
+    <dimen name="register_field_width">120dp</dimen>
+    <dimen name="register_field_height">35dp</dimen>
+    <dimen name="help_button_space">100dp</dimen>
+    <dimen name="field_margin">10dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+</resources>
